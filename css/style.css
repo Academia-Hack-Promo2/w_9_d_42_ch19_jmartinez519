@@ -1,0 +1,87 @@
+body{
+
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+#board{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  top: 60px;
+  background-color: brown;
+  width: 400px;
+  height: 400px;
+
+}
+
+/*Idea que me dio john para agrupar elementos de una clase */
+[class*="rows"] {
+  width: 405px;
+  height: 50px;
+
+}
+
+.square_white{
+background-color: white; 
+  width: 50px;
+  height: 50px;
+/*  display: inline-block;*/
+
+}
+
+.square_black{ 
+  width: 50px;
+  height: 50px;
+/*  display: inline-block;*/
+
+}
+
+
+#rows-b{
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+}
+
+#rows-c{
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  
+}
+
+#rows-d{
+  position: absolute;
+  left: 150px;
+  bottom: 0;
+  
+}
+
+#rows-e{
+  position: absolute;
+  left: 200px;
+  bottom: 0;
+  
+}
+
+#rows-f{
+  position: absolute;
+  left: 250px;
+  bottom: 0;
+}
+
+#rows-g{
+  position: absolute;
+  left: 300px;
+  bottom: 0;
+}
+
+#rows-h{
+  position: absolute;
+  left: 350px;
+  bottom: 0;
+}
